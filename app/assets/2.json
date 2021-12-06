@@ -1,0 +1,19 @@
+{
+    "name": "Totally_Worth_It",
+    "symbol": "",
+    "image": "2.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "2.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "DEk9WFrtmN4DHRZWkZ42Fr33zEd2EY9Ah1yJqMvw2sqa",
+          "share": 100
+        }
+      ]
+    }
+}

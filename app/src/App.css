@@ -1,6 +1,18 @@
+@font-face {
+  font-family: "cherryCreamSoda";
+  src: url("CherryCreamSoda-Regular.ttf");
+}
+
+hr {
+  height: 1px;
+  background-color: white;
+  border-radius: 2px;
+}
+
 .App {
   height: 100vh;
-  background-color: rgb(20, 20, 20);
+  background: -webkit-linear-gradient(right, black 45%, #39FF14 85%);
+  /* background-color: rgb(20, 20, 20); */
   overflow: scroll;
   text-align: center;
   overflow: hidden;
@@ -26,12 +38,14 @@
 
 .header-container {
   /* background-color: #60c657; */
+  font-family: "cherryCreamSoda", "Arial", "Helvetica", sans-serif;
 }
 
 .header {
   margin: 0;
+  font-family: "cherryCreamSoda", "Arial", "Helvetica", sans-serif;
   font-size: 50px;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .sub-text {
@@ -48,7 +62,8 @@
 .cta-button {
   height: 45px;
   border: 0;
-  width: auto;
+  position: center;
+  width: 100%;
   padding-left: 40px;
   padding-right: 40px;
   border-radius: 10px;
@@ -62,6 +77,7 @@
   background: -webkit-linear-gradient(left, #ff8867, #ff52ff);
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
+  width: 20%;
 }
 
 .mint-button {
@@ -69,6 +85,13 @@
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
   margin-left: 10px;
+  width: 20%;
+}
+
+.machine-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-container {
